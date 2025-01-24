@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+  }
+  
+  .sigma{
+    margin: auto;
+    width: 80px;
+    position: absolute;
+    animation-name: sigma;
+    animation-duration: 4s;
+    animation-delay: 3.5s;
+}
+
+.mmmmm{
+  bottom: 20%;
+  padding: 4px;
+  margin: auto;
+  position: absolute;
+  animation-name: as;
+  animation-duration: 2.5s;
+  color: rgb(255, 255, 255)
+
+}
+
+.mangione{
+  bottom: 15%;
+  padding: 4px;
+  margin: auto;
+  opacity: 0;
+  position: absolute;
+  animation-name: fortRIGHT;
+  animation-duration: 5s;
+  animation-delay: 1s;
+  color: rgb(0, 0, 0)
+}
+
+.mangione2{
+  bottom: 15%;
+  padding: 4px;
+  margin: auto;
+  opacity: 0;
+  position: absolute;
+  animation-name: luigileft;
+  animation-duration: 5.5s;
+  animation-delay: 1.5s;
+  color: rgb(0, 0, 0)
+}
+
+.mangione3{
+  bottom: 15%;
+  padding: 4px;
+  margin: auto;
+  opacity: 0;
+  position: absolute;
+  animation-name: goingupsigma;
+  animation-duration: 5.5s;
+  animation-delay: 2s;
+  color: rgb(0, 0, 0)
+}
+
+@keyframes a1s {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes as {
+  from {color: rgba(0, 0, 0, 0);}
+  from {opacity: 0;}
+  from  {bottom: 20%;}
+  to {color: rgb(255, 255, 255);}
+  to {opacity: 100;}
+  to {bottom: 25%;}
+}
+
+@keyframes nuh {
+  from {color: rgba(0, 0, 0, 0);}
+  from {opacity: 0;}
+  from {bottom: 15%}
+  to {color: rgb(255, 255, 255);}
+  to {opacity: 100;}
+  to {bottom: 15%}
+  to {bottom: 20%}
+  to {bottom: 55%}
+}
+
+
+@keyframes goingupsigma {
+  0% {
+    color: rgba(, 0, 0, 0);
+    opacity: 0;
+    bottom: 15%;
+  }
+  25% {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    bottom: 15%;
+  }
+  50% {
+    bottom: 15%;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+  }
+  100% {
+    bottom: 55%;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+  }
+}
+
+
+/* go to the left sigma*/
+@keyframes luigileft {
+  0% {
+    color: rgba(, 0, 0, 0);
+    opacity: 0;
+    bottom: 15%;
+    right: 60%
+  }
+  25% {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    bottom: 15%;
+    right: 50%
+  }
+  50% {
+    bottom: 15%;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    right: 100%
+  }
+  51% {
+    bottom: 55%;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    right: 0%
+  }
+  100% {
+    bottom: 55%;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    right: 60%
+  }
+}
+
+/* go to the RIGHT MIGHT*/
+@keyframes fortRIGHT {
+  0% {
+    color: rgba(, 0, 0, 0);
+    opacity: 0;
+    bottom: 15%;
+    left: 50%
+  }
+  25% {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    bottom: 15%;
+    left: 50%
+  }
+  50% {
+    bottom: 15%;
+    color: rgb(117, 48, 48);
+    opacity: 1;
+    left: 100%
+  }
+  51% {
+    bottom: 55%;
+    color: rgb(129, 50, 50);
+    opacity: 1;
+    right: 100%
+  }
+  100% {
+    bottom: 55%;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    right: 65%
+  }
+}
+
+
+@keyframes sigma {
+  from: {opacity: 1}
+  to {opacity: 0;}
+}
